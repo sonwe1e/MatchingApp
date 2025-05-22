@@ -1,0 +1,47 @@
+# Environment variables
+**/.env
+*.env.*
+!*.env.example # 通常 .env.example 文件是需要提交的模板
+
+# Virtual environments
+/.venv/
+**/venv/
+**/env/
+**/.env/
+
+# Python cache and compiled files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Distribution / packaging
+**/*.egg-info/
+/.eggs/
+/*.egg
+dist/
+build/
+*.tar.gz
+*.whl
+
+# Pytest cache
+**/.pytest_cache/
+**/coverage.xml
+**/.coverage
+
+# Jupyter Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# IDE and editor specific files
+**/.idea/    # IntelliJ IDEA / PyCharm
+**/.vscode/  # Visual Studio Code
+*.swp
+*~
+
+# Data files (Consider adding specific data file extensions if you don't want to commit them)
+# For example, if you have large datasets or intermediate processing files:
+# *.csv
+# *.jpg
+# *.png
+# *.pth  # PyTorch model weights (if you don't want to commit large models)
+# *.onnx # ONNX models
